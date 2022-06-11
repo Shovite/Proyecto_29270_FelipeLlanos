@@ -1,0 +1,109 @@
+body {
+    background-color: #FAD361;
+}
+
+/* ALINEAMIENTO HEADER */
+.menu{
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.menu__logo{
+    height: 20%;
+    width: 20%;
+}
+
+.logo-imagen{
+    height: 100%;
+    width: 100%;
+}
+
+/* GRID BODY */
+
+body{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+/* FLEX PARA EL MENU */
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+    margin-right: 2rem;
+    padding: auto;
+    flex-wrap: wrap;
+}
+
+/* INICIA EL CONTENIDO */
+
+.main-imagen{
+    border-radius: 50px;
+}
+
+/* POSICION PARA EL TITULO DEL BANNER */
+
+.main-banner h1{
+    position: relative;
+    left:50% ;
+    top:50% ;
+}
+
+
+ul, li{
+/*     display: inline-block;
+    gap: 1rem; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    margin-right: 2rem;
+    padding: 0;
+    flex-wrap: wrap;
+    
+/*     margin-left: 10px;
+    margin-right: 10px; */
+}
+
+.product-list{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.product-imagen{
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+}
+
+h1{
+    background-color:black;
+    color:white;
+    display: inline-block;
+
+}
+
+.product-list img{
+    justify-content: center;
+}
+
+/* DISEÑO PARA EL FOOTER */
+
+.footer{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 187, 0);
+    padding: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+.footer__text{
+    margin: auto;
+}
