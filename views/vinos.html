@@ -12,33 +12,34 @@
 </head>
 <body>
     <header>
-        <!-- <h1 class="red-title" id="main-title">Contacto - Drink Store</h1> -->
-        <div>
-            <div>
-                    <img src="../imagenes/logo.PNG" alt="logo-drink-store" width="10%" class="logo-imagen">
-                <span>
-                    <p>Drink Store - ¡Aprovecha nuestras ofertas!</p>
-                </span>
-            </div>
-            <nav class="menu">
-                <ul>
-                    <li>
-                        <a href="../index.html" class="menu__link">Home</a>
-                    </li>
-                    <li>
-                        <a href="./cervezas.html" class="menu__link">Cervezas</a>
-                    </li>
-                    <li>
-                        <a href="./destilados.html" class="menu__link">Destilados</a>
-                    </li>
-                    <li>
-                        <a href="./contacto.html" class="menu__link">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="menu"> <!-- voy a cambiarlo al ul -->
+                <picture class="menu__logo">
+                    <img src="../imagenes/logo.PNG" alt="logo-drink-store" class="logo-imagen">
+                </picture>
+            </picture>
+            <ul> <!-- ACA! -->
+                <li>
+                    <a href="../index.html" class="menu__link">Home</a>
+                </li>
+                <li>
+                    <a href="./cervezas.html" class="menu__link">Cervezas</a>
+                </li>
+                <li>
+                    <a href="./vinos.html" class="menu__link">Vinos</a>
+                </li>
+                <li>
+                    <a href="./destilados.html" class="menu__link">Destilados</a>
+                </li>
+                <li>
+                    <a href="./contacto.html" class="menu__link">Contacto</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <section>
+    <section class="main-banner">
+        <h1>
+            VINOS
+        </h1>
         <img src="../imagenes/vinos.jpg" alt="variedad-de-vinos" width="100%" class="main-imagen">
     </section>
     <section>
@@ -80,9 +81,9 @@
             </ul>
         </nav>
     </section>
-        <footer class="footer">
-            <p class="footer__text">Autor: Felipe Llanos</p>
-            <p class="footer__text">Comsion-29270</p>
-        </footer>
-    </body>
-    </html>
+    <footer class="footer">
+        <p class="footer__text">Autor: Felipe Llanos</p>
+        <p class="footer__text">Comsion-29270</p>
+    </footer>
+</body>
+</html>

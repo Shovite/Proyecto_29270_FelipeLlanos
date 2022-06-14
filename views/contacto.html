@@ -10,19 +10,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Skranji:wght@700&display=swap" rel="stylesheet">
 </head>
-<header>
-    <!-- <h1 class="red-title" id="main-title">Contacto - Drink Store</h1> -->
-    <div>
-        <div>
-                <img src="../imagenes/logo.PNG" alt="logo-drink-store" width="10%" class="logo-imagen">
-            <span>
-                <p>Drink Store - ¡Aprovecha nuestras ofertas!</p>
-            </span>
-        </div>
-        <nav class="menu">
-            <ul>
+<body>
+    <header>
+        <nav class="menu"> <!-- voy a cambiarlo al ul -->
+                <picture class="menu__logo">
+                    <img src="../imagenes/logo.PNG" alt="logo-drink-store" class="logo-imagen">
+                </picture>
+            </picture>
+            <ul> <!-- ACA! -->
                 <li>
                     <a href="../index.html" class="menu__link">Home</a>
+                </li>
+                <li>
+                    <a href="./cervezas.html" class="menu__link">Cervezas</a>
                 </li>
                 <li>
                     <a href="./vinos.html" class="menu__link">Vinos</a>
@@ -31,33 +31,35 @@
                     <a href="./destilados.html" class="menu__link">Destilados</a>
                 </li>
                 <li>
-                    <a href="./cervezas.html" class="menu__link">Cervezas</a>
+                    <a href="./contacto.html" class="menu__link">Contacto</a>
                 </li>
             </ul>
         </nav>
-    </div>
-</header>
-<section>
-    <img src="../imagenes/salud-cerveza.jpg" alt="variedad-de-cervezas" width="100%" class="main-imagen">
-</section>
-<section>
-    <h2>Contactate con nosotros</h2>
-    <form action="" method="POST" enctype="text/plain">
-        <span>nombre</span>
-        <input type="text" name="nombre">
-        <span>correo</span>
-        <input type="email" name="correo">
-        <br><br>
-        <span>mensaje</span> 
-        <br>
-        <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
-        <br>
-        <input type="submit" value="Enviar">
-    </form>
-</section>
-<footer class="footer">
-    <p class="footer__text">Autor: Felipe Llanos</p>
-    <p class="footer__text">Comsion-29270</p>
-</footer>
+    </header>
+    <section class="main-banner">
+        <h1>
+            CONTACTANOS
+        </h1>
+        <img src="../imagenes/salud-cerveza.jpg" alt="variedad-de-cervezas" width="100%" class="main-imagen">
+    </section>
+    <section>
+        <h2>Contactate con nosotros</h2>
+        <form action="" method="POST" enctype="text/plain">
+            <span>nombre</span>
+            <input type="text" name="nombre">
+            <span>correo</span>
+            <input type="email" name="correo">
+            <br><br>
+            <span>mensaje</span> 
+            <br>
+            <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <footer class="footer">
+        <p class="footer__text">Autor: Felipe Llanos</p>
+        <p class="footer__text">Comsion-29270</p>
+    </footer>
 </body>
 </html>
